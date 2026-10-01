@@ -1,0 +1,6 @@
+# Archivos de macOS
+.DS_Store
+
+# Ejecutables generados por mpicc (solo se suben los .c)
+Incisos/*
+!Incisos/*.c
