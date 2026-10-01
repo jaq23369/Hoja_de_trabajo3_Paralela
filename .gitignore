@@ -1,0 +1,33 @@
+# Ejecutables compilados con mpicc (HT3_incisoN sin extension)
+Incisos/*
+!Incisos/*.c
+!Incisos/*.h
+
+# Archivos objeto y binarios
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Archivos de depuracion
+*.dSYM/
+core
+core.*
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Documentos temporales de Word
+~$*
